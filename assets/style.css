@@ -203,6 +203,24 @@ blockquote {
   padding: 1rem 1.5rem;
 }
 
+.archive-notice {
+  background-color: #f9f6f1;
+  border: 1px solid #ccc;
+  border-left: 4px solid #bdb76b;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+  font-style: normal;
+  color: #333;
+  line-height: 1.6;
+}
+.archive-notice h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #363062;
+  font-weight: 600;
+}
+
 /* Links */
 a, a:visited {
   color: #BDB76B;
