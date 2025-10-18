@@ -58,469 +58,755 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-"@type": "Person",
-"name": "Paul Newham",
-"alternateName": "Paul L. Newham",
-"birthDate": "1962-03-16",
-"url": "https://paulnewham.com/",
-"image": "https://paulnewham.com/images/paul-newham.jpg",
-"identifier": {
-"@type": "PropertyValue",
-"propertyID": "ORCID",
-"value": "0000-0001-5686-5343"
-},
-"description": "British psychotherapist, author, and educator. Recognised as a pioneer of principles and practices used in psychotherapy and the expressive arts. Founder of the therapeutic discipline known as Voice Movement Therapy. Founder of the International Association for Voice Movement Therapy. Cited in numerous books, theses, and academic works on the psychology of vocal communication.",
-"knowsAbout": [
-"Voice Movement Therapy",
-"Psychotherapy",
-"Psychology",
-"Musicology",
-"Expressive Arts Therapy",
-"Trauma Informed Care",
-"Creative Arts in Health",
-"Teaching and Education",
-"Writing and Publishing"
-],
-"affiliation": [
-{
-  "@type": "Role",
-  "roleName": "Founder",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "International Association for Voice Movement Therapy"
-  }
-},
-{
-  "@type": "Role",
-  "roleName": "Director",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Resynchrony"
-  }
-}
-],
-"alumniOf": [
-{
-  "@type": "EducationalOrganization",
-  "name": "Dartington College of Arts",
-  "description": "Predecessor institution of Falmouth University"
-},
-{
-  "@type": "EducationalOrganization",
-  "name": "University of Warwick"
-},
-{
-  "@type": "EducationalOrganization",
-  "name": "University of Exeter"
-}
-],
-"sameAs": [
-"https://en.wikipedia.org/wiki/Paul_Newham",
-"https://orcid.org/0000-0001-5686-5343",
-"https://www.wikidata.org/wiki/Q21175203",
-"https://resynchrony.com/",
-"https://voicemovementtherapy.org/",
-"https://www.youtube.com/@resynchrony",
-"https://www.youtube.com/@voicemovementtherapy",
-"https://medium.com/@resynchrony",
-"https://books.google.co.uk/books/about/The_Prophet_of_Song.html?id=1JEoMwAACAAJ",
-"https://en.wikipedia.org/wiki/Alfred_Wolfsohn"
-],
-"subjectOf": [
-{
-  "@type": "Book",
-  "name": "Voicework in Music Therapy: Research and Practice",
-  "datePublished": "2011-06-15",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  },
-  "isbn": "978-0398094249",
-  "author": {
-    "@type": "Person",
-    "name": "Edited by Felicity Baker and Sylka Uhlig"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Voicework in Music Therapy: Research and Practice",
-  "datePublished": "2011-06-15",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  },
-  "isbn": "9781849051651",
-  "author": {
-    "@type": "Person",
-    "name": "Felicity Baker and Sylka Uhlig"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Integrating the Arts in Therapy: History, Theory, and Practice",
-  "datePublished": "2009-06-01",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Charles C Thomas Publisher"
-  },
-  "isbn": "978-0398078690",
-  "author": {
-    "@type": "Person",
-    "name": "Shaun McNiff"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Foundations of Expressive Arts Therapy: Theoretical and Clinical Perspectives",
-  "datePublished": "1998-09-01",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  },
-  "isbn": "978-1853024634",
-  "author": {
-    "@type": "Person",
-    "name": "Stephen Levine and Ellen Levine"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Singing the Psyche: Uniting Thought and Feeling Through the Voice",
-  "author": [
-    {
-"@type": "Person",
-"name": "Anne Brownell"
+      "@type": "Person",
+      "@id": "https://voicemovementtherapy.org/#person",
+      "name": "Paul Newham",
+      "alternateName": "Paul L. Newham",
+      "url": "https://paulnewham.com/",
+      "image": "https://voicemovementtherapy.org/images/paul-newham.jpg",
+      "birthDate": "1962-03-16",
+      "nationality": "British",
+      "jobTitle": "Psychotherapist, author, and educator",
+      "workLocation": {
+        "@type": "City",
+        "name": "London"
+      },
+      "description": "Founder of Voice Movement Therapy. Founder of Resynchrony. Originator of methods at the intersection of psychotherapy and expressive arts. Cited in scholarly and professional literature on the psychology of vocal communication.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0001-5686-5343"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://voicemovementtherapy.org/#organization"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Dartington College of Arts",
+          "description": "Predecessor institution of Falmouth University",
+          "sameAs": "https://www.falmouth.ac.uk/"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Warwick",
+          "sameAs": "https://warwick.ac.uk/"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Exeter",
+          "sameAs": "https://www.exeter.ac.uk/"
+        }
+      ],
+      "knowsLanguage": [
+        "en-GB",
+        "en-US"
+      ],
+      "knowsAbout": [
+        "Voice Movement Therapy",
+        "Expressive Arts Therapy",
+        "Psychotherapy",
+        "Psychology",
+        "Trauma Informed Care",
+        "Creative Arts in Health",
+        "Musicology",
+        "Teaching and Education",
+        "Writing and Publishing"
+      ],
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Paul_Newham",
+        "https://www.wikidata.org/wiki/Q21175203",
+        "https://orcid.org/0000-0001-5686-5343",
+        "https://paulnewham.medium.com",
+        "https://www.youtube.com/@paul-newham"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Enquiries",
+        "email": "voice@paulnewham.com",
+        "url": "https://voicemovementtherapy.org/contact"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "International Association for Voice Movement Therapy",
+        "url": "https://iavmt.org"
+      },
+      "subjectOf": [
+        {
+          "@type": "Book",
+          "name": "Voicework in Music Therapy: Research and Practice",
+          "datePublished": "2011-06-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "isbn": "9781849051651",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Felicity Baker"
+            },
+            {
+              "@type": "Person",
+              "name": "Sylka Uhlig"
+            }
+          ],
+          "url": "https://uk.jkp.com/products/voicework-in-music-therapy"
+        },
+        {
+          "@type": "Book",
+          "name": "Integrating the Arts in Therapy: History, Theory, and Practice",
+          "datePublished": "2009-06-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Charles C Thomas Publisher"
+          },
+          "isbn": "9780398078690",
+          "author": {
+            "@type": "Person",
+            "name": "Shaun McNiff"
+          },
+          "url": "https://www.ccthomas.com/details.cfm?P_ISBN13=9780398078690"
+        },
+        {
+          "@type": "Book",
+          "name": "Foundations of Expressive Arts Therapy: Theoretical and Clinical Perspectives",
+          "datePublished": "1998-09-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "isbn": "9781853024634",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Stephen Levine"
+            },
+            {
+              "@type": "Person",
+              "name": "Ellen Levine"
+            }
+          ],
+          "url": "https://uk.jkp.com/products/foundations-of-expressive-arts-therapy"
+        },
+        {
+          "@type": "Book",
+          "name": "Singing the Psyche: Uniting Thought and Feeling Through the Voice",
+          "datePublished": "2023",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Charles C. Thomas Publisher"
+          },
+          "isbn": "9780398094249",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Anne Brownell"
+            },
+            {
+              "@type": "Person",
+              "name": "Deirdre Brownell"
+            },
+            {
+              "@type": "Person",
+              "name": "Gina Holloway Mulder"
+            }
+          ],
+          "url": "https://www.ccthomas.com/details.cfm?P_ISBN13=9780398094249"
+        },
+        {
+          "@type": "Book",
+          "name": "The Song of the Soul: The Transpersonal Dimension of Psyche and Sound",
+          "datePublished": "2024",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Chiron Publications"
+          },
+          "isbn": "9781685032333",
+          "author": {
+            "@type": "Person",
+            "name": "L. Måndotter"
+          },
+          "url": "https://www.chironpublications.com/shop/vol-11-the-song-of-the-soul-the-transpersonal-dimension-of-psyche-and-sound/"
+        },
+        {
+          "@type": "Book",
+          "name": "Sounding the Soul: Listening to the Psyche",
+          "datePublished": "1996",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daimon"
+          },
+          "isbn": "9783856300553",
+          "author": {
+            "@type": "Person",
+            "name": "M. L. Kittelson"
+          },
+          "url": "https://www.daimon.ch/English-titles-titles/Mary-Lynn-Kittelson-titles/Sounding-the-Soul--The-Art-of-Listening"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Voice Movement Therapy: Evaluation of a Group-Based Expressive Arts Therapy for Nonsuicidal Self-Injury in Young Adults",
+          "datePublished": "2013",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "S. Martin"
+            },
+            {
+              "@type": "Person",
+              "name": "G. Martin"
+            },
+            {
+              "@type": "Person",
+              "name": "B. Lequertier"
+            }
+          ],
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "1",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "5",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Music and Medicine"
+              }
+            }
+          },
+          "pageStart": "31",
+          "pageEnd": "38",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1177/1943862112467649"
+          },
+          "url": "https://journals.sagepub.com/doi/10.1177/1943862112467649"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Treating Nonsuicidal Self-Injury: A Systematic Review of Psychological and Pharmacological Interventions",
+          "datePublished": "2014",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "B. J. Turner"
+            },
+            {
+              "@type": "Person",
+              "name": "S. B. Austin"
+            },
+            {
+              "@type": "Person",
+              "name": "A. L. Chapman"
+            }
+          ],
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "11",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "59",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Canadian Journal of Psychiatry"
+              }
+            }
+          },
+          "pageStart": "576",
+          "pageEnd": "585",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1177/070674371405901103"
+          },
+          "url": "https://journals.sagepub.com/doi/10.1177/070674371405901103"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Dialogical Self in Vocal Psychotherapy",
+          "datePublished": "2017",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "K. Osatuke"
+            },
+            {
+              "@type": "Person",
+              "name": "D. Austin"
+            }
+          ],
+          "isPartOf": {
+            "@type": "PublicationVolume",
+            "volumeNumber": "26",
+            "isPartOf": {
+              "@type": "Periodical",
+              "name": "Nordic Journal of Music Therapy"
+            }
+          },
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1080/08098131.2016.1261375"
+          },
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/08098131.2016.1261375"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The Human Voice: Psychology and Psychodynamic Voice Therapy",
+          "datePublished": "2007",
+          "author": {
+            "@type": "Person",
+            "name": "Susanne Storm"
+          },
+          "isPartOf": {
+            "@type": "PublicationVolume",
+            "volumeNumber": "28",
+            "isPartOf": {
+              "@type": "Periodical",
+              "name": "Psyke & Logos: Musik og Psykologi"
+            }
+          },
+          "pageStart": "447",
+          "pageEnd": "477",
+          "url": "https://vbn.aau.dk/en/publications/den-menneskelige-stemme-psykologi-og-psykodynamisk-stemmetereapi"
+        },
+        {
+          "@type": "Thesis",
+          "name": "Singing Yourself: A Comparison of Three Vocal Music Therapists' Methods on How to Work with Autobiographical Lyrics: Diane Austin, Paul Newham, Felicity Baker",
+          "datePublished": "2017",
+          "author": {
+            "@type": "Person",
+            "name": "Elisabeth Schüller"
+          },
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "Linnaeus University"
+          },
+          "url": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1124006"
+        },
+        {
+          "@type": "Thesis",
+          "name": "Portraits of Vocal Psychotherapists: Singing as a Healing Influence for Change and Transformation",
+          "datePublished": "2014",
+          "author": {
+            "@type": "Person",
+            "name": "Suzannah G. Summers"
+          },
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "Antioch University"
+          },
+          "url": "https://aura.antioch.edu/etds/134"
+        },
+        {
+          "@type": "Thesis",
+          "name": "Voice: Gateway to the Numinous",
+          "datePublished": "2005",
+          "author": {
+            "@type": "Person",
+            "name": "Sharon Matthews"
+          },
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "Pacifica Graduate Institute"
+          },
+          "url": "https://www.proquest.com/openview/3205598"
+        },
+        {
+          "@type": "Thesis",
+          "name": "Deep Story: An Investigation of the Use of the Embodied Voice in the Treatment of Traumatic Memory",
+          "datePublished": "1997",
+          "author": {
+            "@type": "Person",
+            "name": "Margaret Scott"
+          },
+          "publisher": {
+            "@type": "EducationalOrganization",
+            "name": "University of Massachusetts Amherst"
+          },
+          "url": "https://www.proquest.com/openview/9737582"
+        }
+      ]
     },
     {
-"@type": "Person",
-"name": "Deirdre Brownell"
+      "@type": "Organization",
+      "@id": "https://voicemovementtherapy.org/#organization",
+      "name": "Voice Movement Therapy",
+      "url": "https://voicemovementtherapy.org/",
+      "founder": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "General Enquiries",
+        "email": "info@voicemovementtherapy.org",
+        "url": "https://voicemovementtherapy.org/contact"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Courses and Training",
+        "itemListElement": [
+          {
+            "@id": "https://voicemovementtherapy.org/#course-healing-voice"
+          },
+          {
+            "@id": "https://voicemovementtherapy.org/#course-professional-training"
+          }
+        ]
+      }
     },
     {
-"@type": "Person",
-"name": "Gina Holloway Mulder"
-    }
-  ],
-  "datePublished": "2023",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Charles C. Thomas Publisher"
-  },
-  "isbn": "978-0-398-09424-9"
-},
-{
-  "@type": "Book",
-  "name": "The Song of the Soul: The Transpersonal Dimension of Psyche and Sound",
-  "datePublished": "2024",
-  "author": {
-    "@type": "Person",
-    "name": "L. Måndotter"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Chiron Publications"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Sounding the Soul: Listening to the Psyche",
-  "datePublished": "1996",
-  "author": {
-    "@type": "Person",
-    "name": "M. L. Kittelson"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Daimon"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Voice Movement Therapy: Evaluation of a Group-Based Expressive Arts Therapy for Nonsuicidal Self-Injury in Young Adults",
-  "datePublished": "2013",
-  "author": [
-    {
-"@type": "Person",
-"name": "Sophie Martin"
+      "@type": "DefinedTerm",
+      "@id": "https://voicemovementtherapy.org/#vmt-discipline",
+      "name": "Voice Movement Therapy",
+      "alternateName": "VMT",
+      "description": "An integrative form of expressive arts psychotherapy that combines voice and movement for emotional expression and psychological healing. Originated by Paul Newham in the late twentieth century.",
+      "inDefinedTermSet": "https://voicemovementtherapy.org/"
     },
     {
-"@type": "Person",
-"name": "Graham Martin"
+      "@type": "DefinedTerm",
+      "@id": "https://voicemovementtherapy.org/#resynchrony",
+      "name": "Resynchrony",
+      "description": "A therapeutic approach using sound and movement to re-establish homeostasis and psychobiological synchrony. Developed by Paul Newham as an evolution of Voice Movement Therapy.",
+      "inDefinedTermSet": "https://voicemovementtherapy.org/"
     },
     {
-"@type": "Person",
-"name": "Belinda Lequertier"
-    }
-  ],
-  "isPartOf": {
-    "@type": "PublicationIssue",
-    "issueNumber": "1",
-    "isPartOf": {
-"@type": "PublicationVolume",
-"volumeNumber": "5",
-"name": "Music and Medicine"
-    }
-  },
-  "pagination": "31–38",
-  "identifier": "10.1177/1943862112467649",
-  "url": "https://journals.sagepub.com/doi/10.1177/1943862112467649"
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Treating Nonsuicidal Self-Injury: A Systematic Review of Psychological and Pharmacological Interventions",
-  "datePublished": "2014",
-  "author": [
-    {
-"@type": "Person",
-"name": "B.J. Turner"
+      "@type": "Organization",
+      "@id": "https://iavmt.org/#organization",
+      "name": "International Association for Voice Movement Therapy",
+      "alternateName": "IAVMT",
+      "url": "https://iavmt.org",
+      "founder": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      }
     },
     {
-"@type": "Person",
-"name": "S.B. Austin"
+      "@type": "CreativeWorkSeries",
+      "@id": "https://voicemovementtherapy.org/#publications",
+      "name": "Publications",
+      "about": {
+        "@id": "https://voicemovementtherapy.org/#vmt-discipline"
+      },
+      "creator": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      },
+      "hasPart": [
+        {
+          "@type": "Book",
+          "name": "Using Voice and Theatre in Therapy",
+          "datePublished": "1999",
+          "isbn": "9781853025914",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "url": "https://uk.jkp.com/products/using-voice-and-theatre-in-therapy"
+        },
+        {
+          "@type": "Book",
+          "name": "Using Voice and Movement in Therapy",
+          "datePublished": "1999",
+          "isbn": "9781853025921",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "url": "https://uk.jkp.com/products/using-voice-and-movement-in-therapy"
+        },
+        {
+          "@type": "Book",
+          "name": "Using Voice and Song in Therapy",
+          "datePublished": "1999",
+          "isbn": "9781853025907",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "url": "https://uk.jkp.com/products/using-voice-and-song-in-therapy"
+        },
+        {
+          "@type": "Book",
+          "name": "Therapeutic Voicework",
+          "datePublished": "1997",
+          "isbn": "9781853023613",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Jessica Kingsley Publishers"
+          },
+          "url": "https://uk.jkp.com/products/therapeutic-voicework"
+        },
+        {
+          "@type": "Book",
+          "name": "The Singing Cure: An Introduction to Voice Movement Therapy",
+          "datePublished": "1993",
+          "isbn": "9780712656689",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Random House"
+          },
+          "url": "https://books.google.co.uk/books/about/The_Singing_Cure.html?id=lw24QAAACAAJ"
+        },
+        {
+          "@type": "Book",
+          "name": "The Healing Voice",
+          "datePublished": "1999",
+          "isbn": "9781862045484",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Element Books"
+          },
+          "url": "https://www.google.co.uk/books/edition/_/DTOQQgAACAAJ"
+        },
+        {
+          "@type": "Book",
+          "name": "The Prophet of Song: The Life and Work of Alfred Wolfsohn",
+          "datePublished": "1997",
+          "isbn": "0952630206",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Tigers Eye Press"
+          },
+          "url": "https://www.google.co.uk/books/edition/The_Prophet_of_Song/1JEoMwAACAAJ"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Jung and Alfred Wolfsohn: Analytical psychology and the singing voice",
+          "datePublished": "1992",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "3",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "37",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Journal of Analytical Psychology"
+              }
+            }
+          },
+          "pageStart": "323",
+          "pageEnd": "336",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1111/j.1465-5922.1992.00323.x"
+          },
+          "url": "https://doi.org/10.1111/j.1465-5922.1992.00323.x"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The psychology of voice and the founding of the Roy Hart theatre",
+          "datePublished": "1992",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "33",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "9",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "New Theatre Quarterly"
+              }
+            }
+          },
+          "pageStart": "59",
+          "pageEnd": "65",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.1017/S0266464X00007478"
+          },
+          "url": "https://doi.org/10.1017/S0266464X00007478"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Voice Movement Therapy: Towards an arts therapy for voice",
+          "datePublished": "1994",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "2-3",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "16",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Dramatherapy"
+              }
+            }
+          },
+          "pageStart": "28",
+          "pageEnd": "33",
+          "identifier": [
+            {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1080/02630672.1994.9689382"
+            },
+            {
+              "@type": "PropertyValue",
+              "propertyID": "S2CID",
+              "value": "143754636"
+            }
+          ],
+          "url": "https://doi.org/10.1080/02630672.1994.9689382"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Making a song and dance: the musical voice of language",
+          "datePublished": "1995-1996",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "1",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "3",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Journal of the Imagination in Learning"
+              }
+            }
+          },
+          "pageStart": "66",
+          "pageEnd": "74",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "ISSN",
+            "value": "1071-6157"
+          }
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Singing and psyche: towards voice movement therapy",
+          "datePublished": "1992",
+          "author": {
+            "@id": "https://voicemovementtherapy.org/#person"
+          },
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "1",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "1",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Voice: Journal of the British Voice Association"
+              }
+            }
+          },
+          "pageStart": "75",
+          "pageEnd": "102"
+        }
+      ]
     },
     {
-"@type": "Person",
-"name": "A.L. Chapman"
-    }
-  ],
-  "isPartOf": {
-    "@type": "PublicationIssue",
-    "issueNumber": "11",
-    "isPartOf": {
-"@type": "PublicationVolume",
-"volumeNumber": "59",
-"name": "Canadian Journal of Psychiatry"
-    }
-  },
-  "pagination": "576–585",
-  "identifier": "10.1177/070674371405901103",
-  "url": "https://journals.sagepub.com/doi/10.1177/070674371405901103"
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "The Dialogical Self in Vocal Psychotherapy",
-  "datePublished": "2017",
-  "author": [
-    {
-"@type": "Person",
-"name": "K. Osatuke"
+      "@type": "WebSite",
+      "@id": "https://voicemovementtherapy.org/#website",
+      "url": "https://voicemovementtherapy.org/",
+      "name": "Voice Movement Therapy",
+      "publisher": {
+        "@id": "https://voicemovementtherapy.org/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://voicemovementtherapy.org/#organization"
+      }
     },
     {
-"@type": "Person",
-"name": "D. Austin"
-    }
-  ],
-  "isPartOf": {
-    "@type": "PublicationIssue",
-    "issueNumber": "4",
-    "isPartOf": {
-"@type": "PublicationVolume",
-"volumeNumber": "26",
-"name": "Nordic Journal of Music Therapy"
-    }
-  },
-  "identifier": "10.1080/08098131.2016.1261375",
-  "url": "https://www.tandfonline.com/doi/abs/10.1080/08098131.2016.1261375"
-},
-{
-  "@type": "Book",
-  "name": "The Prophet of Song: The Life and Work of Alfred Wolfsohn",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "datePublished": "1997",
-  "isbn": "0952630206",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Tigers Eye Press"
-  },
-  "numberOfPages": 142,
-  "about": {
-    "@type": "Person",
-    "name": "Alfred Wolfsohn",
-    "sameAs": "https://en.wikipedia.org/wiki/Alfred_Wolfsohn"
-  },
-  "url": "https://books.google.co.uk/books/about/The_Prophet_of_Song.html?id=1JEoMwAACAAJ"
-}
-]
+      "@type": "Course",
+      "@id": "https://voicemovementtherapy.org/#course-healing-voice",
+      "name": "The Healing Voice",
+      "description": "A 12-hour downloadable audio and video course on the history and psychology of therapeutic singing.",
+      "provider": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      },
+      "learningResourceType": [
+        "AudioObject",
+        "VideoObject"
+      ],
+      "timeRequired": "PT12H",
+      "offers": {
+        "@type": "Offer",
+        "price": "280.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "category": "DigitalDownload"
+      }
     },
     {
-"@type": "CreativeWorkSeries",
-"name": "Publications by Paul Newham",
-"creator": {
-"@type": "Person",
-"name": "Paul Newham"
-},
-"hasPart": [
-{
-  "@type": "Book",
-  "name": "Using Voice and Theatre in Therapy",
-  "datePublished": "1999",
-  "isbn": "978-1853025914",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Using Voice and Movement in Therapy",
-  "datePublished": "1999",
-  "isbn": "978-1853025921",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Using Voice and Song in Therapy",
-  "datePublished": "1999",
-  "isbn": "978-1853025907",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  }
-},
-{
-  "@type": "Book",
-  "name": "Therapeutic Voicework",
-  "datePublished": "1997",
-  "isbn": "978-1853023613",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Kingsley Publishers"
-  }
-},
-{
-  "@type": "Book",
-  "name": "The Singing Cure: An Introduction to Voice Movement Therapy",
-  "datePublished": "1993",
-  "isbn": "9780712656689",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Random House"
-  }
-},
-{
-  "@type": "Book",
-  "name": "The Healing Voice",
-  "datePublished": "1999",
-  "isbn": "978-1862045484",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Element Books"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Jung and Alfred Wolfsohn: Analytical psychology and the singing voice",
-  "datePublished": "1992",
-  "pageStart": "323",
-  "pageEnd": "336",
-  "identifier": "10.1111/j.1465-5922.1992.00323.x",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "isPartOf": {
-    "@type": "PublicationVolume",
-    "volumeNumber": "37",
-    "name": "Journal of Analytical Psychology"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "The psychology of voice and the founding of the Roy Hart theatre",
-  "datePublished": "1993",
-  "pageStart": "59",
-  "pageEnd": "65",
-  "identifier": "10.1017/S0266464X00007478",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "isPartOf": {
-    "@type": "PublicationVolume",
-    "volumeNumber": "9",
-    "name": "New Theatre Quarterly"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Voice Movement Therapy: Towards an arts therapy for voice",
-  "datePublished": "1994",
-  "pageStart": "28",
-  "pageEnd": "33",
-  "identifier": "10.1080/02630672.1994.9689382",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "isPartOf": {
-    "@type": "PublicationVolume",
-    "volumeNumber": "16",
-    "name": "Dramatherapy"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Making a song and dance: the musical voice of language",
-  "datePublished": "1995",
-  "pageStart": "66",
-  "pageEnd": "74",
-  "identifier": "ISSN 1071-6157",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "isPartOf": {
-    "@type": "PublicationVolume",
-    "volumeNumber": "3",
-    "name": "Journal of the Imagination in Learning"
-  }
-},
-{
-  "@type": "ScholarlyArticle",
-  "name": "Singing and psyche: towards voice movement therapy",
-  "datePublished": "1992",
-  "pageStart": "75",
-  "pageEnd": "102",
-  "author": {
-    "@type": "Person",
-    "name": "Paul Newham"
-  },
-  "isPartOf": {
-    "@type": "PublicationVolume",
-    "volumeNumber": "1",
-    "name": "Voice: Journal of the British Voice Association"
-  }
-}
-]
+      "@type": "Course",
+      "@id": "https://voicemovementtherapy.org/#course-professional-training",
+      "name": "Professional Training in Voice Movement Therapy",
+      "description": "Professional training in the theory and practice of Voice Movement Therapy.",
+      "provider": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      },
+      "about": {
+        "@id": "https://voicemovementtherapy.org/#vmt-discipline"
+      },
+      "hasCourseInstance": {
+         "@id": "https://voicemovementtherapy.org/#course-instance-2026-09"
+      }
+    },
+    {
+      "@type": "CourseInstance",
+      "@id": "https://voicemovementtherapy.org/#course-instance-2026-09",
+      "name": "Professional Training in Voice Movement Therapy (London 2026)",
+      "courseMode": "https://schema.org/OfflineCourse",
+      "instructor": {
+        "@id": "https://voicemovementtherapy.org/#person"
+      },
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "London",
+          "addressCountry": "GB"
+        }
+      },
+      "startDate": "2026-09-05",
+      "courseWorkload": "P10D",
+      "offers": {
+        "@type": "Offer",
+        "price": "2800.00",
+        "priceCurrency": "GBP",
+        "url": "https://voicemovementtherapy.org/professional-training-2026",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
     }
   ]
 }
@@ -800,3 +1086,4 @@ In giving voice to the language of this inward dominion, through music and song,
 
 </body>
 </html>
+
